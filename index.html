@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CYBER KENZO</title>
+  <style>
+    /* Hacking Theme */
+    body {
+      margin: 0;
+      font-family: "Courier New", monospace;
+      background: #000;
+      color: #00ff00;
+      overflow-x: hidden;
+    }
+
+    .scan-lines {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(0,255,0,0.03) 0px,
+        rgba(0,255,0,0.03) 2px,
+        transparent 2px,
+        transparent 4px
+      );
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 1px solid #00ff00;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 15px #00ff00;
+    }
+
+    .typewriter {
+      width: 90%;
+      margin: auto;
+      border-right: 3px solid #00ff00;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 1.5rem;
+      animation: typing 4s steps(40, end) infinite alternate;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    .section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #00ff00;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border: 1px solid #00ff00;
+      color: #00ff00;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #00ff00;
+      color: #000;
+      box-shadow: 0 0 15px #00ff00;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #00ff00;
+    }
+  </style>
+</head>
+<body>
+  <div class="scan-lines"></div>
+
+  <header>
+    <h1>CYBER KENZO</h1>
+    <div class="typewriter">// Hacking The World One Line At A Time...</div>
+  </header>
+
+  <div class="section">
+    <h2>> About</h2>
+    <p>Welcome to CYBER KENZO! This is a hacking‑themed portfolio/project site built with raw HTML and CSS. Fast, dark, powerful.</p>
+  </div>
+
+  <div class="section">
+    <h2>> Tools & Projects</h2>
+    <ul>
+      <li>📌 WhatsApp Bots</li>
+      <li>📌 Bug Deploy Panels</li>
+      <li>📌 Hacking UI Android Apps</li>
+      <li>📌 Telegram Automation Projects</li>
+    </ul>
+    <a class="btn" href="#">View More</a>
+  </div>
+
+  <div class="section">
+    <h2>> Contact</h2>
+    <p>Message me on WhatsApp:</p>
+    <a class="btn" href="https://wa.me/">WhatsApp Me</a>
+  </div>
+
+  <footer>
+    © 2025 CYBER LAKIYA | Hacking Theme Website
+  </footer>
+</body>
+</html>
